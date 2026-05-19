@@ -1,0 +1,36 @@
+# Entorno virtual
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Variables de entorno
+.env
+*.env
+
+# Dataset FMA (demasiado pesado)
+musicclassifier/data/fma_small/
+musicclassifier/data/fma_metadata/
+musicclassifier/data/processed/
+
+# ChromaDB
+musicclassifier/backend/rag/chroma_db/
+
+# Node
+musicclassifier/frontend/node_modules/
+musicclassifier/frontend/dist/
+
+# VS Code
+.vscode/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Windows
+Thumbs.db
+Desktop.ini
