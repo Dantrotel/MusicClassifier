@@ -40,7 +40,7 @@ cd musicclassifier/frontend
 pnpm install
 ```
 
-## ⚙️ Configuración
+## Configuración
 
 Crea un archivo `.env` en `musicclassifier/backend/`:
 
